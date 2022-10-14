@@ -8,5 +8,6 @@ public class Main {
         userValid.checkLastName();
         userValid.checkValidMail();
         userValid.checkMobileNumber();
+        userValid.checkPassword();
     }
 }

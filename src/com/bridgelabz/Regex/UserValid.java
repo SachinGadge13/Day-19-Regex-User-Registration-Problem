@@ -49,4 +49,15 @@ public class UserValid {
             System.out.println("Invalid Mobile Number");
         }
     }
+    public void checkPassword(){
+        // check 8 Character Password
+        System.out.println("Enter The Valid Password : ");
+        String password = scan.nextLine();
+
+        if (Pattern.matches("^[A-Za-z1-8]{8}$",password)){
+            System.out.println("Valid Password");
+        }else {
+            System.out.println("Invalid Password, Enter Again");
+        }
+    }
 }
