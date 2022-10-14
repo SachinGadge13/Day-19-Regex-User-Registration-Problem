@@ -11,5 +11,6 @@ public class Main {
         userValid.checkPassword();
         userValid.checkPasswordWithAtLeastOneUpperCase();
         userValid.passwordWithOneNumericNum();
+        userValid.passwordWithOneSpecialCharacter();
     }
 }

@@ -82,4 +82,15 @@ public class UserValid {
             System.out.println("Invalid Password, Enter Again ");
         }
     }
+    public void passwordWithOneSpecialCharacter(){
+        //Special Character
+        System.out.println("Enter Password With At Least One Character : ");
+        String password3 = scan.nextLine();
+
+        if (Pattern.matches("^[a-z](?=.*[A-Z])(?=.*[1-9])(?=.*[@#$%^&+=]).{8,}$", password3)) {
+            System.out.println("Valid Mail");
+        }else {
+            System.out.println("Invalid Mail, Enter Again ");
+        }
+    }
 }
