@@ -7,5 +7,6 @@ public class Main {
         userValid.checkFirstName();
         userValid.checkLastName();
         userValid.checkValidMail();
+        userValid.checkMobileNumber();
     }
 }
