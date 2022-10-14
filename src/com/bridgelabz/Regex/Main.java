@@ -1,8 +1,9 @@
 package com.bridgelabz.Regex;
 
 public class Main {
-	public static void main(String[] args) {
-		UserValid userValid = new UserValid();
-		userValid.checkFirstName();
-	}
+    public static void main(String[] args) {
+        UserValid userValid = new UserValid();
+        userValid.checkFirstName();
+        userValid.checkLastName();
+    }
 }
