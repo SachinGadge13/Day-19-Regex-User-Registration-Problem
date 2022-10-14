@@ -71,4 +71,15 @@ public class UserValid {
             System.out.println("Invalid Password , Enter Again");
         }
     }
+    public void passwordWithOneNumericNum(){
+        //At least One Numeric Number
+        System.out.println("Enter The Password With At least One Numeric Number :");
+        String password2 = scan.nextLine();
+
+        if (Pattern.matches("^[1-9]+[1-9A-Za-z]{7}+",password2)){
+            System.out.println("Valid Password");
+        }else {
+            System.out.println("Invalid Password, Enter Again ");
+        }
+    }
 }
