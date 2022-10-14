@@ -60,4 +60,15 @@ public class UserValid {
             System.out.println("Invalid Password, Enter Again");
         }
     }
+    public void checkPasswordWithAtLeastOneUpperCase(){
+        //At Least One UpperCase
+        System.out.println("Enter The Password With At Least One Upper Case : ");
+        String password1 = scan.nextLine();
+
+        if (Pattern.matches("^[A-Z]+[a-z]{7}$",password1)){
+            System.out.println("Valid Password");
+        }else {
+            System.out.println("Invalid Password , Enter Again");
+        }
+    }
 }
